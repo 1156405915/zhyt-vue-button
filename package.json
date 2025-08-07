@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imengyu/vue3-context-menu.git"
+    "url": "git+https://github.com/1156405915/zhyt-vue-button.git"
   },
   "dependencies": {
     "pinia": "^3.0.3",
