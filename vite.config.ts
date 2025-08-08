@@ -17,7 +17,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: 'ZhytVueButton',
+      name: 'zhyt-vue-button',
       fileName: (format) => `zhyt-vue-button.${format}.js`,
     },
     rollupOptions: {

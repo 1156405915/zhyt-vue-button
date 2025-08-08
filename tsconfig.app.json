@@ -4,9 +4,9 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "declaration": true,
-    "emitDeclarationOnly": false,
-    "declarationDir": "dist",
+    "declaration": true, // 表示生成 .d.ts 文件
+    "emitDeclarationOnly": false, // 表示不仅仅生成声明文件（如果只想生成声明文件可以设为 true）。
+    "declarationDir": "dist", // 指定输出目录。
     "paths": {
       "@/*": ["./src/*"]
     }
